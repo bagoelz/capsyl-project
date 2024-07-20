@@ -26,7 +26,8 @@
 - Project use Prisma library, for init database
 ```
 npm install
-npx prisma db push```
+npx prisma db push
+```
 
 #Run project
 node server.js
