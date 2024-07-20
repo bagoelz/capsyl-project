@@ -22,10 +22,14 @@
 	REDIS_PORT=6379
 	```
 
-#First run
+#First instalation
 - Project use Prisma library, for init database
-**npm install*
+**npm install**
 **npx prisma db push**
+
+#Run project
+node server.js
+
 
 # Api Route 
 ####using jwt and middleware for read permision, put on header `bearer token`, token 
