@@ -1,0 +1,231 @@
+2024-07-20T08:16:19.859Z [right meow!] error: Validation failure
+2024-07-20T08:16:51.636Z [right meow!] error: Validation failure
+2024-07-20T08:17:08.890Z [right meow!] error: Validation failure
+2024-07-20T08:17:35.015Z [right meow!] error: Validation failure
+2024-07-20T08:18:12.141Z [right meow!] error: Validation failure
+2024-07-20T08:18:31.650Z [right meow!] error: Cannot read properties of undefined (reading 'createMany')
+2024-07-20T08:33:07.744Z [right meow!] error: Cannot read properties of undefined (reading 'netxtId')
+2024-07-20T08:33:52.895Z [right meow!] error: Cannot read properties of undefined (reading 'netxtId')
+2024-07-20T08:34:06.124Z [right meow!] error: Cannot access 'netxtId' before initialization
+2024-07-20T08:34:36.671Z [right meow!] error: Cannot access 'netxtId' before initialization
+2024-07-20T08:35:05.959Z [right meow!] error: Cannot read properties of undefined (reading 'netxtId')
+2024-07-20T08:40:23.759Z [right meow!] error: Cannot read properties of undefined (reading 'netxtId')
+2024-07-20T08:41:21.322Z [right meow!] error: Cannot read properties of undefined (reading 'netxtId')
+2024-07-20T08:41:26.184Z [right meow!] error: Cannot read properties of undefined (reading 'getnetxtId')
+2024-07-20T09:26:52.762Z [right meow!] error: Cannot read properties of undefined (reading 'getnetxtId')
+2024-07-20T09:27:45.584Z [right meow!] error: Cannot read properties of undefined (reading 'getnetxtId')
+2024-07-20T09:28:02.501Z [right meow!] error: Cannot read properties of undefined (reading 'getnetxtId')
+2024-07-20T09:28:34.321Z [right meow!] error: Cannot read properties of undefined (reading 'getnetxtId')
+2024-07-20T09:28:52.909Z [right meow!] error: Prisma is not defined
+2024-07-20T09:29:34.663Z [right meow!] error: Cannot read properties of undefined (reading 'getnetxtId')
+2024-07-20T09:30:59.856Z [right meow!] error: Prisma is not defined
+2024-07-20T09:31:28.410Z [right meow!] error: Prisma is not defined
+2024-07-20T09:32:05.969Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    title: "Tahu Goreng",
+    slug: "Tahu Goreng",
+    auth_id: 1,
++   category_id: Int
+  }
+}
+
+Argument `category_id` is missing.
+2024-07-20T09:34:25.394Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    title: "Tahu Goreng",
+    slug: "Tahu Goreng",
+    auth_id: 1,
++   category_id: Int
+  }
+}
+
+Argument `category_id` is missing.
+2024-07-20T09:35:26.143Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    title: "Tahu Goreng",
+    slug: "Tahu Goreng",
+    auth_id: 1,
+    category_id: 21,
++   product: {
++     create: ProductCreateWithoutPriceInput | ProductUncheckedCreateWithoutPriceInput,
++     connectOrCreate: ProductCreateOrConnectWithoutPriceInput,
++     connect: ProductWhereUniqueInput
++   }
+  }
+}
+
+Argument `product` is missing.
+2024-07-20T09:38:53.465Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    title: "Tahu Goreng",
+    slug: "Tahu Goreng",
+    auth_id: 1,
+    category_id: 21,
++   product: {
++     create: ProductCreateWithoutPriceInput | ProductUncheckedCreateWithoutPriceInput,
++     connectOrCreate: ProductCreateOrConnectWithoutPriceInput,
++     connect: ProductWhereUniqueInput
++   }
+  }
+}
+
+Argument `product` is missing.
+2024-07-20T09:39:01.980Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    title: "Tahu Goreng",
+    slug: "Tahu Goreng",
+    auth_id: 1,
+    category_id: 21,
++   product: {
++     create: ProductCreateWithoutPriceInput | ProductUncheckedCreateWithoutPriceInput,
++     connectOrCreate: ProductCreateOrConnectWithoutPriceInput,
++     connect: ProductWhereUniqueInput
++   }
+  }
+}
+
+Argument `product` is missing.
+2024-07-20T09:40:26.819Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+{
+  data: {
+    title: "Tahu Goreng",
+    slug: "Tahu Goreng",
+    auth_id: 1,
+    category_id: 21,
++   id: Int
+  }
+}
+
+Argument `id` is missing.
+2024-07-20T09:45:18.226Z [right meow!] error: 
+Invalid `prisma.pivot.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Pivot_category_id_fkey (index)`
+2024-07-20T09:46:29.887Z [right meow!] error: 
+Invalid `prisma.pivot.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Pivot_term_id_fkey (index)`
+2024-07-20T09:49:12.930Z [right meow!] error: 
+Invalid `prisma.pivot.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Pivot_term_id_fkey (index)`
+2024-07-20T09:50:38.095Z [right meow!] error: 
+Invalid `prisma.pivot.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Pivot_term_id_fkey (index)`
+2024-07-20T09:52:08.203Z [right meow!] error: 
+Invalid `prisma.pivot.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Pivot_term_id_fkey (index)`
+2024-07-20T09:53:58.928Z [right meow!] error: 
+Invalid `prisma.pivot.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Pivot_term_id_fkey (index)`
+2024-07-20T09:56:22.705Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Price_term_id_fkey (index)`
+2024-07-20T09:57:53.514Z [right meow!] error: Prisma is not defined
+2024-07-20T09:58:52.844Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Price_term_id_fkey (index)`
+2024-07-20T09:59:20.995Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+
+Unique constraint failed on the fields: (`auth_id`)
+2024-07-20T10:00:29.525Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Price_term_id_fkey (index)`
+2024-07-20T10:04:31.664Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Price_term_id_fkey (index)`
+2024-07-20T10:05:39.254Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Price_term_id_fkey (index)`
+2024-07-20T10:06:06.894Z [right meow!] error: product is not defined
+2024-07-20T10:08:29.869Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+
+Unique constraint failed on the fields: (`category_id`)
+2024-07-20T10:17:36.109Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Unique constraint failed on the fields: (`term_id`)
+2024-07-20T10:18:39.871Z [right meow!] error: product is not defined
+2024-07-20T10:20:50.795Z [right meow!] error: product is not defined
+2024-07-20T10:20:57.472Z [right meow!] error: product is not defined
+2024-07-20T10:21:36.716Z [right meow!] error: product is not defined
+2024-07-20T10:22:50.590Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Unique constraint failed on the fields: (`term_id`)
+2024-07-20T10:23:52.013Z [right meow!] error: 
+Invalid `prisma.price.create()` invocation:
+
+
+Unique constraint failed on the fields: (`term_id`)
+2024-07-20T10:25:02.267Z [right meow!] error: product is not defined
+2024-07-20T10:25:50.420Z [right meow!] error: Prisma is not defined
+2024-07-20T11:05:15.218Z [right meow!] error: Prisma is not defined
+2024-07-20T11:05:37.777Z [right meow!] error: Prisma is not defined
+2024-07-20T11:06:45.044Z [right meow!] error: Prisma is not defined
+2024-07-20T11:07:31.840Z [right meow!] error: Prisma is not defined
+2024-07-20T11:08:18.807Z [right meow!] error: Cannot read properties of undefined (reading 'Serializable')
+2024-07-20T11:08:56.024Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Product_id_fkey (index)`
+2024-07-20T11:10:54.541Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Product_id_fkey (index)`
+2024-07-20T11:12:20.290Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Product_id_fkey (index)`
+2024-07-20T11:13:44.710Z [right meow!] error: 
+Invalid `prisma.product.create()` invocation:
+
+
+Foreign key constraint failed on the field: `Product_id_fkey (index)`
+2024-07-20T11:17:01.117Z [right meow!] error: product is not defined
+2024-07-20T11:17:55.499Z [right meow!] error: product is not defined
