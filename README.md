@@ -24,7 +24,8 @@
 
 #First instalation
 - Project use Prisma library, for init database
-```npm install
+```
+npm install
 npx prisma db push```
 
 #Run project
