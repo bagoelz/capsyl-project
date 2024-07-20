@@ -89,6 +89,7 @@ class EmojiController {
       _count: {
         id: true,
       },
+      take:limits,
       orderBy: {
         _count: {
           id: "desc",
